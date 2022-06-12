@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 1em;
+}
+
+.linksleft,
+.linksright {
+    display: flex;
+    justify-content: space-between;
+    margin: 1em;
+}
+
+.container a {
+    all: unset;
+    padding-right: 2em;
+}
+
+.loginButton {
+    background: #1a73e8;
+    border: 1px solid transparent;
+    color: white;
+    padding: 9px 23px;
+    border-radius: 4px;
+    cursor: pointer;
+}

@@ -1,0 +1,107 @@
+.mobile {
+    background-position: -46px 0;
+    background-size: 468.32px 634.15px;
+    -webkit-flex-basis: 380.32px;
+    -ms-flex-preferred-size: 380.32px;
+    flex-basis: 380.32px;
+    height: 581.15px;
+    margin-bottom: 12px;
+    margin-right: 32px;
+}
+
+.mobile img {
+    display: flex;
+    height: 538.84px;
+    left: 404px;
+    position: absolute;
+    top: 57px;
+    width: 250px;
+}
+
+.img1 {
+    opacity: 1;
+    animation-name: photo1;
+    animation-fill-mode: backwards;
+    animation-duration: 5s;
+    animation-delay: 3s;
+}
+
+.img2 {
+    opacity: 0;
+    visibility: hidden;
+    animation-name: photos;
+    animation-delay: 4s;
+    animation-fill-mode: both;
+    animation-duration: 7s;
+    animation-timing-function: ease-in-out;
+}
+
+.img3 {
+    opacity: 0;
+    animation-name: photos;
+    visibility: hidden;
+    animation-delay: 7s;
+    animation-duration: 7s;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+}
+
+.img4 {
+    opacity: 0;
+    animation-name: photos;
+    visibility: hidden;
+    animation-fill-mode: both;
+    animation-duration: 7s;
+    animation-delay: 11s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes photo1 {
+    0% {
+        opacity: 1
+    }
+    25% {
+        opacity: 0.8
+    }
+    50% {
+        opacity: 0.5
+    }
+    75% {
+        opacity: 0.3
+    }
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+@keyframes photos {
+    0% {
+        opacity: 0;
+        visibility: visible;
+    }
+    10% {
+        opacity: 0.3
+    }
+    20% {
+        opacity: 0.5
+    }
+    30% {
+        opacity: 0.8
+    }
+    50% {
+        opacity: 1;
+    }
+    60% {
+        opacity: 0.8
+    }
+    70% {
+        opacity: 0.5
+    }
+    85% {
+        opacity: 0.3
+    }
+    100% {
+        visibility: hidden;
+    }
+}

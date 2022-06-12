@@ -1,0 +1,13 @@
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 50em;
+    margin-left: 16em;
+}
+
+.links a {
+    padding: 10px;
+    font-size: 0.7em;
+    font-weight: 400;
+}
